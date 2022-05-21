@@ -27,7 +27,7 @@ Display the filtered image using plot and imshow.
 ```
 import cv2
 import matplotlib.pyplot as plt
-image = cv2.imread("image1.png")
+image = cv2.imread("jk.jpg")
 gray_image = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 new_image = cv2.GaussianBlur(gray_image,(3,3),0)
 
